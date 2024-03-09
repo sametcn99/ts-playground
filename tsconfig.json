@@ -8,8 +8,8 @@
     "include": [
         "./*.ts",
         "index.ts",
-        "./**.ts",
-        "problems/plusOne.ts"
+        "./*.ts",
+        "./**/*.ts"
     ],
     "exclude": [
         "node_modules"
