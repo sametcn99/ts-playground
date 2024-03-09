@@ -7,7 +7,9 @@
     },
     "include": [
         "./*.ts",
-        "index.ts"
+        "index.ts",
+        "./**.ts",
+        "problems/plusOne.ts"
     ],
     "exclude": [
         "node_modules"
