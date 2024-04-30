@@ -12,32 +12,10 @@ This project is a starter template for running a simple TypeScript Console appli
    cd path/to/ts-playground
    ```
 
-3. Install project dependencies:
-
-   ```bash
-   npm install
+3. Scripts to run with [Deno Runtime](https://deno.com/)
    ```
-
-## Usage
-
-- Create or edit your TypeScript file in the `root` folder.
-
-- To run your TypeScript file, use the following command in the terminal:
-
-   ```bash
-   npm start
+   deno run -A index.ts
+    ```
+    ```
+   deno run -A --watch index.ts 
    ```
-
-   This command will compile and execute the `index.ts` file using `ts-node`.
-
-- To only compile TypeScript files, use the following command in the terminal:
-
-   ```bash
-   npm run build
-   ```
-
-   This command will compile TypeScript files to JavaScript and place the output in the `dist` folder.
-
-## TypeScript Configuration
-
-You can customize the TypeScript settings for the project in the `tsconfig.json` file. This file contains the TypeScript compiler configuration.
