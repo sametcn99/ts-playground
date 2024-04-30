@@ -14,8 +14,8 @@ This project is a starter template for running a simple TypeScript Console appli
 
 3. Scripts to run with [Deno Runtime](https://deno.com/)
    ```
-   deno run -A index.ts
+   deno task start
     ```
     ```
-   deno run -A --watch index.ts 
+   deno task dev
    ```
