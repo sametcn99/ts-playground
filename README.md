@@ -1,6 +1,7 @@
 # TypeScript Playground
 
-This project is a starter template for running a simple TypeScript Console application.
+This project is a starter template for running a simple TypeScript Console
+application.
 
 ## Getting Started
 
@@ -13,9 +14,11 @@ This project is a starter template for running a simple TypeScript Console appli
    ```
 
 3. Scripts to run with [Deno Runtime](https://deno.com/)
-   ```
+
+   ```bash
    deno task start
-    ```
-    ```
+   ```
+
+   ```bash
    deno task dev
    ```
